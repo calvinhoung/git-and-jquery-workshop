@@ -2,6 +2,17 @@
 // $("img").width(200);
 
 $(document).ready(function(){
+	$("li").on("click"), function (){
+//li
+
+	if ($(this).hasClass("done")) {
+			$(this).removeClass("done");
+	} else {
+
+		$(this).addClass("done");
+	}
+});
+
 
 	$("img").on("dblclick", function(){
 // here.
@@ -11,7 +22,7 @@ $(document).ready(function(){
 
 	$(".booboo").slideUp();
 
-	$("#rahul".hide();
+	$("#rahul").hide();
 	});
 
 //$("img").click(function(){
